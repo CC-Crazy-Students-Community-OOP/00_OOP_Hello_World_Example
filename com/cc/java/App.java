@@ -2,6 +2,8 @@ package com.cc.java;
 
 public class App {
     public static void main( String[] args ) {
-        System.out.println( "Hello, Test World!" );
+        Out.op( Out.c( "#y" ) + "--- Example for Output ---------------" );
+        Out.op( 5 );
+
     }
 }
